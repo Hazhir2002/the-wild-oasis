@@ -1,7 +1,6 @@
-import Heading from "../ui/Heading";
-import Row from "../ui/Row";
+import { Heading, Row } from "../ui";
 
-function Account() {
+export function Account() {
   return (
     <>
       <Heading as="h1">Update your account</Heading>
@@ -18,5 +17,3 @@ function Account() {
     </>
   );
 }
-
-export default Account;

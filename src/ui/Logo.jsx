@@ -9,12 +9,10 @@ const Img = styled.img`
   width: auto;
 `;
 
-function Logo() {
+export function Logo() {
   return (
     <StyledLogo>
       <Img src="/logo-light.png" alt="Logo" />
     </StyledLogo>
   );
 }
-
-export default Logo;

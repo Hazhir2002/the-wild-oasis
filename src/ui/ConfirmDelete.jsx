@@ -20,7 +20,7 @@ const StyledConfirmDelete = styled.div`
   }
 `;
 
-function ConfirmDelete({ resourceName, onConfirm, disabled }) {
+export function ConfirmDelete({ resourceName, onConfirm, disabled }) {
   return (
     <StyledConfirmDelete>
       <Heading as="h3">Delete {resourceName}</Heading>
@@ -40,5 +40,3 @@ function ConfirmDelete({ resourceName, onConfirm, disabled }) {
     </StyledConfirmDelete>
   );
 }
-
-export default ConfirmDelete;

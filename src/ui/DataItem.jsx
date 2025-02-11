@@ -20,7 +20,7 @@ const Label = styled.span`
   }
 `;
 
-function DataItem({ icon, label, children }) {
+export function DataItem({ icon, label, children }) {
   return (
     <StyledDataItem>
       <Label>
@@ -31,5 +31,3 @@ function DataItem({ icon, label, children }) {
     </StyledDataItem>
   );
 }
-
-export default DataItem;

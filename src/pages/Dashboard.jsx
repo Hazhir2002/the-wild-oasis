@@ -1,7 +1,6 @@
-import Heading from "../ui/Heading";
-import Row from "../ui/Row";
+import { Heading, Row } from "../ui";
 
-function Dashboard() {
+export function Dashboard() {
   return (
     <Row type="horizontal">
       <Heading as="h1">Dashboard</Heading>
@@ -9,5 +8,3 @@ function Dashboard() {
     </Row>
   );
 }
-
-export default Dashboard;
