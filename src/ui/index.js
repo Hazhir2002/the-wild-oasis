@@ -15,7 +15,7 @@ export { Header } from "./Header";
 export { Heading } from "./Heading";
 export { Input } from "./Input";
 export { Logo } from "./Logo";
-// export { MainNav } from "./MainNav";
+export { MainNav } from "./MainNav";
 // export { Menus } from "./Menus";
 // export { Modal } from "./Modal";
 // export { Pagination } from "./Pagination";
