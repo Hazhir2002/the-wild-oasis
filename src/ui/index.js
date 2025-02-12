@@ -12,6 +12,7 @@ export { FileInput } from "./FileInput";
 // export { Filter } from "./Filter";
 export { Flag } from "./Flag";
 export { Form } from "./Form";
+export { FormRow } from "./FormRow";
 export { Header } from "./Header";
 export { Heading } from "./Heading";
 export { Input } from "./Input";

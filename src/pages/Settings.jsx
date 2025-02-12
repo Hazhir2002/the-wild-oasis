@@ -1,5 +1,11 @@
-import { Heading } from "../ui";
+import { UpdateSettingsForm } from "../features";
+import { Heading, Row } from "../ui";
 
 export function Settings() {
-  return <Heading as="h1">Update hotel settings</Heading>;
+  return (
+    <Row type="vertical">
+      <Heading as="h1">Update hotel settings</Heading>
+      <UpdateSettingsForm />
+    </Row>
+  );
 }
