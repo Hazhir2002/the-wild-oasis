@@ -26,7 +26,7 @@ export { Row } from "./Row";
 export { Sidebar } from "./Sidebar";
 export { Spinner } from "./Spinner";
 export { SpinnerMini } from "./SpinnerMini";
-// export { Table } from "./Table";
+export { Table } from "./Table";
 export { TableOperations } from "./TableOperations";
 export { Tag } from "./Tag";
 export { Textarea } from "./Textarea";
