@@ -19,7 +19,7 @@ export { Input } from "./Input";
 export { Logo } from "./Logo";
 export { MainNav } from "./MainNav";
 // export { Menus } from "./Menus";
-// export { Modal } from "./Modal";
+export { Modal } from "./Modal";
 // export { Pagination } from "./Pagination";
 export { Row } from "./Row";
 // export { Select } from "./Select";

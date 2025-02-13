@@ -1,2 +1,2 @@
-export { CabinTable } from "./cabins";
+export { AddCabin, CabinTable } from "./cabins";
 export { UpdateSettingsForm } from "./settings";
