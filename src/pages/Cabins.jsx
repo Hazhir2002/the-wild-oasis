@@ -1,4 +1,4 @@
-import { AddCabin, CabinTable } from "../features";
+import { AddCabin, CabinTable, CabinTableOperations } from "../features";
 import { Heading, Row } from "../ui";
 
 export function Cabins() {
@@ -6,7 +6,7 @@ export function Cabins() {
     <>
       <Row type="horizontal">
         <Heading as="h1">All cabins</Heading>
-        <p>Filter / Sort</p>
+        <CabinTableOperations />
       </Row>
 
       <Row type="vertical">
